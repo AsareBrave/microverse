@@ -36,7 +36,7 @@ export const Header = (props) => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden bg-primary w-full h-screen space-y-10 pt-5 px-4 fixed top-0 left-0">
+          <div className="md:hidden bg-primary w-full h-screen space-y-10 pt-5 px-4 fixed top-0 left-0 opacity-90">
             <div className="flex justify-end">
               <button onClick={closeMenu} className="pr-2">
                 <i
