@@ -3,7 +3,7 @@ import { NormalButton } from "../button";
 export const Portfolio = (props) => {
   return (
     <>
-      <div className="w-[327px] mx-auto bg-white rounded-2xl md:w-[756px] lg:w-[1156px] hover:cursor-pointer">
+      <div className="w-[327px] mx-auto bg-white rounded-2xl md:w-[756px] lg:w-[1156px] hover:cursor-pointer mt-[81px] md:mt-[142px]">
         <div className="flex flex-col py-4 mx-4 md:justify-between md:my-6 md:flex-row">
           <div className="lg:mr-6">
             <img
