@@ -13,7 +13,7 @@ export const Contact = () => {
               love to help with it!
             </div>
             <div className="items-center flex flex-col">
-              <div className="space-y-5 mt-[52px] box-border text-text-dark md:flex md:flex-col">
+              <div className="space-y-5 mt-[52px] box-border text-text-dark md:flex md:flex-col w-full">
                 <input
                   type="text"
                   className="px-4 py-4 text-base bg-white rounded-md outline-none box-border"
