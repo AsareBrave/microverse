@@ -3,8 +3,12 @@ import burger from "../../assets/burger.svg";
 export const Header = (props) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
+  const openMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
   return (
     <>
@@ -22,10 +26,20 @@ export const Header = (props) => {
               </a>
             ))}
           </div>
-          <div className="flex md:hidden">
-            <button onClick={toggleMenu}>
-              <img src={burger} alt="" />
-            </button>
+          <div className="flex md:hidden items-center">
+            {!isMenuOpen && (
+              <button onClick={openMenu}>
+                <img src={burger} alt="" />
+              </button>
+            )}
+            {isMenuOpen && (
+              <button onClick={closeMenu}>
+                <i
+                  className="fa fa-times fa-lg text-primary"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            )}
           </div>
         </div>
 
