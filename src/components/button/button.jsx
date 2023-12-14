@@ -21,3 +21,15 @@ export const WhiteButton = (props) => {
     </>
   );
 };
+
+export const WhiteButtonIcon = (props) => {
+  return (
+    <>
+      <div className="my-3 flex items-start">
+        <button className="p-4 text-[17px] text-primary border border-primary rounded-lg">
+          {props.text} <i className= {props.icon} aria-hidden="true"></i> 
+        </button>
+      </div>
+    </>
+  );
+};

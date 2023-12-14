@@ -16,7 +16,8 @@ export default {
         'text-light': '#344563',
         'text-text-lighter': '#7A869A',
         'tag-blue': '#EBEBFF',
-        'accordion-grey': '#F7F7F9'
+        'accordion-grey': '#F7F7F9',
+        'overley': "#C1C7D0"
       },
       fontFamily: {
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans]
