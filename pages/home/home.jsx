@@ -45,7 +45,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col-reverse md:block space-y-[81px] lg:space-y-[142px] mt-[81px] md:mt-[142px]">
+        <div className="flex flex-col-reverse md:block space-y-[81px] lg:space-y-[142px] mt-[81px] md:mt-[142px] items-center">
           <Portfolio
             projectImage={image}
             projectName="Tonic"
@@ -53,6 +53,7 @@ export const Home = () => {
             projectRole="Back End Dev"
             projectYear="2015"
             projectDetails="A daily selection of privately personalized reads; no accounts or sign-ups required."
+            projectDetailsMobile="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"
             tagItems={[{ lang: "HTML" }]}
           ></Portfolio>
           <Portfolio
@@ -62,6 +63,7 @@ export const Home = () => {
             projectRole="Back End Dev"
             projectYear="2015"
             projectDetails="A daily selection of privately personalized reads; no accounts or sign-ups required."
+            projectDetailsMobile="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"
             tagItems={[{ lang: "HTML" }]}
           ></Portfolio>
           <Portfolio
@@ -71,6 +73,7 @@ export const Home = () => {
             projectRole="Back End Dev"
             projectYear="2015"
             projectDetails="A daily selection of privately personalized reads; no accounts or sign-ups required."
+            projectDetailsMobile="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"
             tagItems={[
               { lang: "HTML" },
               { lang: "CSS" },
@@ -84,6 +87,7 @@ export const Home = () => {
             projectRole="Back End Dev"
             projectYear="2015"
             projectDetails="A daily selection of privately personalized reads; no accounts or sign-ups required."
+            projectDetailsMobile="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent"
             tagItems={[
               { lang: "HTML" },
               { lang: "CSS" },
